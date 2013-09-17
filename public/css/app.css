@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+html, body, .wrapper {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  width: 400px;
+  height: 100%;
+  z-index: 200;
+  margin: 0 auto;
+}
+
+.vertical-center {
+  display: table;
+  height: 100%;
+}
+
+.count {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: #CCCCCC;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.number {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 200px;
+  font-weight: 800;
+  line-height: 180px;
+}
+
+.surface {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 800;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "drumrollforever",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.0.7",
+    "angular-socket-io": "~0.0.2",
+    "bootstrap": "~3.0.0",
+    "hammerjs": "~1.0.5",
+    "soundmanager": "*",
+    "angular-ui": "~0.4.0"
+  }
+}

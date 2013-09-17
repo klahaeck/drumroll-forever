@@ -1,0 +1,11 @@
+extends layout
+
+block body
+  div.wrapper(ng-controller='AppCtrl')
+    .surface(hammer, keyboard)
+    .container
+      .vertical-center
+        .count
+          .number
+            {{usercount}}
+          | Drummers Drumming

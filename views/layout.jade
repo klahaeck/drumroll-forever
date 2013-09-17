@@ -1,0 +1,23 @@
+!!!
+html(ng-app="DrumRollForever")
+  head
+    meta(charset='utf8')
+    base(href='/')
+    title Drum Roll Forever
+    meta(name="viewport", content="width=device-width, initial-scale=0.5")
+    //- link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/app.css')
+  body
+    block body
+
+    script(src='bower_components/jquery/jquery.min.js')
+    script(src='bower_components/hammerjs/dist/jquery.hammer.min.js')
+    script(src='bower_components/soundmanager/script/soundmanager2-nodebug-jsmin.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='bower_components/angular/angular.js')
+    script(src='bower_components/angular-socket-io/socket.js')
+    script(src='js/app.js')
+    script(src='js/services.js')
+    script(src='js/controllers.js')
+    script(src='js/filters.js')
+    script(src='js/directives.js')
